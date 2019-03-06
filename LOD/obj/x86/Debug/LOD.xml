@@ -1,0 +1,179 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+LOD
+</name>
+</assembly>
+<members>
+<member name="T:LOD.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:LOD.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:LOD.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:LOD.MetricsWindow.UpMetricCalculation(System.Int32,System.Data.DataTable,System.String)">
+ <summary>
+ This is the tactical version of UpMetricCalculation
+ </summary>
+ <param name="itsCount"></param>
+ <param name="thisDataGridView"></param>
+ <param name="elementName"></param>
+ <remarks></remarks>
+</member>
+<member name="M:LOD.MetricsWindow.UpMetricCalculation(System.Data.DataTable,System.String)">
+ <summary>
+ This is the test version of UpMetricCalculation
+ </summary>
+ <param name="thisDataGridView"></param>
+ <param name="elementName"></param>
+ <remarks></remarks>
+</member>
+<member name="M:LOD.MetricsWindow.DegradedMetricCalculation(System.Int32,System.Data.DataTable,System.String)">
+ <summary>
+ This is the tactical version of DegradedMetricCalculation
+ </summary>
+ <param name="itsCount"></param>
+ <param name="thisDataGridView"></param>
+ <param name="elementName"></param>
+ <remarks></remarks>
+</member>
+<member name="M:LOD.MetricsWindow.DegradedMetricCalculation(System.Data.DataTable,System.String)">
+ <summary>
+ This is the test version of DegradedMetricCalculation
+ </summary>
+ <param name="thisDataGridView"></param>
+ <param name="elementName"></param>
+ <remarks></remarks>
+</member>
+<member name="M:LOD.MetricsWindow.DownMetricCalculation(System.Int32,System.Data.DataTable,System.String)">
+ <summary>
+ This is the tactical version of DownMetricCalculation
+ </summary>
+ <param name="itsCount"></param>
+ <param name="thisDataGridView"></param>
+ <param name="elementName"></param>
+ <remarks></remarks>
+</member>
+<member name="M:LOD.MetricsWindow.DownMetricCalculation(System.Data.DataTable,System.String)">
+ <summary>
+ This is the test version of DegradedMetricsCalculation
+ </summary>
+ <param name="thisDataGridView"></param>
+ <param name="elementName"></param>
+ <remarks></remarks>
+</member>
+<member name="M:LOD.MetricsWindow.OfflineMetricCalculation(System.Int32,System.Data.DataTable,System.String)">
+ <summary>
+ This is the tactical version of OfflineMetricCalculation
+ </summary>
+ <param name="itsCount"></param>
+ <param name="thisDataGridView"></param>
+ <param name="elementName"></param>
+ <remarks></remarks>
+</member>
+<member name="M:LOD.MetricsWindow.OfflineMetricCalculation(System.Data.DataTable,System.String)">
+ <summary>
+ This is the test version of OfflineMetricCalculation
+ </summary>
+ <param name="thisDataGridView"></param>
+ <param name="elementName"></param>
+ <remarks></remarks>
+</member>
+<member name="M:LOD.MetricsWindow.BreakMetricCalculation(System.Int32,System.Data.DataTable,System.String)">
+ <summary>
+ This is the tactical version of BreakMetricCalculation
+ </summary>
+ <param name="itsCount"></param>
+ <param name="thisDataGridView"></param>
+ <param name="elementName"></param>
+ <remarks></remarks>
+</member>
+<member name="M:LOD.MetricsWindow.BreakMetricCalculation(System.Data.DataTable,System.String)">
+ <summary>
+ This is the test version of BreakMetricCalculation
+ </summary>
+ <param name="thisDataGridView"></param>
+ <param name="elementName"></param>
+ <remarks></remarks>
+</member>
+<member name="M:LOD.MetricsWindow.MaxFclMetricCalculation(System.Int32,System.Data.DataTable,System.String)">
+ <summary>
+ This is the tactical version of MaxFclMetricCalculation
+ </summary>
+ <param name="itsCount"></param>
+ <param name="thisDataGridView"></param>
+ <param name="elementName"></param>
+ <remarks></remarks>
+</member>
+<member name="M:LOD.MetricsWindow.MaxFclMetricCalculation(System.Data.DataTable,System.String)">
+ <summary>
+ This is the test version of MaxFclMetricCalculation
+ </summary>
+ <param name="thisDataGridView"></param>
+ <param name="elementName"></param>
+ <remarks></remarks>
+</member>
+<member name="M:LOD.MetricsWindow.MaxFullUpMetricCalculation(System.Int32,System.Data.DataTable,System.String)">
+ <summary>
+ This is the tactical version of MaxFullUpMetricCalculation
+ </summary>
+ <param name="itsCount"></param>
+ <param name="thisDataGridView"></param>
+ <param name="elementName"></param>
+ <remarks></remarks>
+</member>
+<member name="M:LOD.MetricsWindow.MaxFullUpMetricCalculation(System.Data.DataTable,System.String)">
+ <summary>
+ This is the test version of MaxFullUpMetricCalculation
+ </summary>
+ <param name="thisDataGridView"></param>
+ <param name="elementName"></param>
+ <remarks></remarks>
+</member>
+<member name="M:LOD.LogEntryClass.EnterButtonClick(System.String)">
+ <summary>
+ This function is used for a regular log entry with no manual time entry required
+ </summary>
+ <param name="itsLogEntry"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:LOD.LogEntryClass.EnterButtonClick(System.DateTime,System.String)">
+ <summary>
+ This function is used for a regular log entry WITH a manual time entered by the operator
+ </summary>
+ <param name="itsManualTime"></param>
+ <param name="itsLogEntry"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:LOD.LogEntryClass.EnterButtonClick(System.Boolean)">
+ <summary>
+ This function is for an exercise complete with no manual time entry
+ </summary>
+ <param name="isExerciseComplete"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:LOD.LogEntryClass.EnterButtonClick(System.Boolean,System.DateTime)">
+ <summary>
+ This function is for an Exercise Complete WITH a manual time entry
+ </summary>
+ <param name="isExerciseComplete"></param>
+ <param name="itsManualTime"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

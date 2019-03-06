@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="LOD.exe" version="0.1.1.16" publicKeyToken="189033841c55ca4d" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="LOD" version="0.1.1.16" language="neutral" processorArchitecture="x86" />
+    <commandLine file="LOD.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel node will disable file and registry virtualization.
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LOD.exe" size="472512">
+      <assemblyIdentity name="LOD" version="0.1.1.16" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>TmQ8EwljjDbZUVUnQ6O/cT5ecSo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Config_AMOD_CG.xml" size="73" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>IHEL6ZKDdkbWuNCrYrAuiKSKMOU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Config_AMOD_DDG.xml" size="41414" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>071hEBBVd5MFj+Xfli+cwJ0xbOc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Config_AWD.xml" size="16777" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Aq3XBF2ZLr5ofBvbX4tz4Kcvrok=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Config_F105.xml" size="15376" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Xd3Uo09X0rNEj7HMJe0BdTXOyXU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Config_J6.xml" size="41122" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>KhsX06Xo3ZfL56DDj80x7ddXxhU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="LOD.exe.config" size="1361">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>YKeeiDaWWjpFJ64BAAi9DOc0aUU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of all Windows versions that this application is designed to work with. Windows will automatically select the most compatible environment.-->
+      <!-- If your application is designed to work with Windows 7, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=NJMRSNET-AEGIS\ktooley" issuerKeyHash="05fad02af2f36da06438045519bc77501570e475" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>nku5iLfuJ3jaNRKl27H57NrT364=</DigestValue></Reference></SignedInfo><SignatureValue>vcU+15pDL9qNKgbxKh+HXv7mJ2Fx4t/MbC5T4ZzO4MTG4fN2CdhGNRyhLg6hWXJUySJPZjZCGhD1qHGEQjq/UrZi/uNp+6MqMSLIvbsvZYpJD/gLce0Fu2+C103iUVTlAMn5Kn9R6GT0mbBNseN0IvIJsMpUBa2B4AieKXGFVM0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>zVotkHth6UUK9oleICArsVj+Jz2mdEm2Ioz2TQxSqkYxF+48cmgcY8eQKYNvEz+RQ+hDwXHKVJmyF1PVge3gvZUZBUxLNnvHwfa9r9a36kbH8Y3GDAxKOBiQLY0GfbhLrbmdvUCIaToEfQhmvKVsjh8pljvIGmeoD5B9HekAKUk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="aedfd3daecf9b1dba51235da7827eeb788b94b9e" Description="" Url=""><as:assemblyIdentity name="LOD.exe" version="0.1.1.16" publicKeyToken="189033841c55ca4d" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=NJMRSNET-AEGIS\ktooley</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>vHtfC0i1bgOt47I2E67Xl9BAT7E=</DigestValue></Reference></SignedInfo><SignatureValue>O4juQUpO9r2rzhAGtLZpXkixzMrGYPoAlADAcXBraE1qOQpjrDt28F8YeLAIgUNCspo4X/z1lH5M9iM3IojZnhpI8ds8CcYb7Hll4c/wdnnp2luGe3rDuy/KZtw2xnBK86mtTHWevy0YqLbpJA0wzHjSivsXsDOjMEcHBCm6OOE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>zVotkHth6UUK9oleICArsVj+Jz2mdEm2Ioz2TQxSqkYxF+48cmgcY8eQKYNvEz+RQ+hDwXHKVJmyF1PVge3gvZUZBUxLNnvHwfa9r9a36kbH8Y3GDAxKOBiQLY0GfbhLrbmdvUCIaToEfQhmvKVsjh8pljvIGmeoD5B9HekAKUk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQU92PPieOXrxHjj45Ei2jmDANBgkqhkiG9w0BAQUFADA3MTUwMwYDVQQDHiwATgBKAE0AUgBTAE4ARQBUAC0AQQBFAEcASQBTAFwAawB0AG8AbwBsAGUAeTAeFw0xNzA5MjgxMDQzNDZaFw0xODA5MjgxNjQzNDZaMDcxNTAzBgNVBAMeLABOAEoATQBSAFMATgBFAFQALQBBAEUARwBJAFMAXABrAHQAbwBvAGwAZQB5MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDNWi2Qe2HpRQr2iV4gICuxWP4nPaZ0SbYijPZNDFKqRjEX7jxyaBxjx5Apg28TP5FD6EPBccpUmbIXU9WB7eC9lRkFTEs2e8fB9r2v1rfqRsfxjcYMDEo4GJAtjQZ9uEutuZ29QIhpOgR9CGa8pWyOHymWO8gaZ6gPkH0d6QApSQIDAQABMA0GCSqGSIb3DQEBBQUAA4GBACeQaKtVc7ZUgnB2h9k64SADWbLJkhQm6gH+lSmWUheM5OwQmAXY4A+1Svt5onC6+DylzsTGrelaIhmQN/4JLROo+Tzo22fQOJjZFfQq83uPcijjn3XgsBfHshozub3gHQt5CurxTZW1D2njRmmZzrXgQilenKL9oaAH78F+lyvH</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
